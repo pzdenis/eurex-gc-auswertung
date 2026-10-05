@@ -1,0 +1,30 @@
+# Python und virtuelle Umgebungen
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Lokale Editor- und Systemdateien
+.vscode/
+.idea/
+.Rproj.user/
+.Rhistory
+.RData
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Lokale Umgebung und Zugangsdaten
+.env
+.env.*
+!.env.example
+.agents/
+.codex/
+.aws/
+
+# Generierte Ausgaben und temporäre Dateien
+output/*
+!output/.gitkeep
+*.tmp
